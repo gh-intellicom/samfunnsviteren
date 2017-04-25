@@ -1,10 +1,17 @@
 
 /* write all you css code here */
 
+/* FORSIDE */
 .forside {
-    height: 400px;
+    height: 100vh;
+    background-color: red;
 }
-
-    .forside img {
-        height: 100%;
+.forside img {
+    width: 100%;
+}
+    .forsideBilde, .forsideTekst {
+        margin-top: 100px;
     }
+
+
+
