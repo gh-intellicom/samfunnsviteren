@@ -1,17 +1,98 @@
 
 /* write all you css code here */
 
+.hr-1 {
+    height: 1px;
+    background-color: black;
+}
+
+.fullw-blue {
+    background-color: #00577D;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.fullw-grey {
+    background-color: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#tema {
+    font-style: italic;
+}
+
+
 /* FORSIDE */
-.forside {
-    height: 100vh;
-    background-color: red;
-}
-.forside img {
-    width: 100%;
-}
-    .forsideBilde, .forsideTekst {
-        margin-top: 100px;
+.forside{
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    color:  white;
+    }
+    .forside .forsideBilde img {
+        display:block;
+        margin:auto;
     }
 
+/* DYBDEARTIKKEL HOVED */
+.dybdeartikkel {
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+    }
+    .forside .forsideBilde img {
+        display:block;
+        margin:auto;
+    }
+
+/* INNHOLD */
+
+
+/* DYBDE */
+
+.dybde , .harOrdet , .aktuelt {
+        min-height: 400px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        padding-top: 15px;
+        padding-bottom: 15px;
+}
+
+.dybde {
+    background-color: #F6F6F6;
+    }
+.harOrdet {  
+    background-color: #D9EFEC;
+}
+.aktuelt {
+    background-color: #F6F6F6;
+}
+
+
+.fremhevet {
+    padding: 0px ;
+}
+
+.fremhevetText {
+    padding: 35px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+
+.samfunnsviterneFordeler {
+    background-color: red; 
+
+}
+
+
+
+/* Spacing between section...for now */
+.colSpace {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 

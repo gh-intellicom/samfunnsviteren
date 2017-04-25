@@ -1,0 +1,112 @@
+    <!-- ARTIKLER DEL 2 -->
+    <div class="row">
+        <div class="col-sm-3 hallo_samfunnsviter">
+            <h4>Hallo, Samfunnsviter</h4>
+            <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+            <button type="button">LES</button>
+        </div>
+        <div class="col-sm-3 aktuelt">
+            <h4>Internett som del´mokratibygger</h4>
+            <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+            <button type="button">LES</button>
+        </div>
+        <div class="col-sm-6 dybde">
+            <div class="col-sm-6 dybde">
+                <h2>Ingen kan trylle frem arbeidsplasser</h2>
+                <img src="#">
+            </div>
+            <div class="col-sm-6 dybde">
+                <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                <button type="button">LES</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-3 ung">
+            <h4>En god hjelper dersom man er langtidsyk</h4>
+            <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+            <button type="button">LES</button>
+        </div>
+        <div class="col-sm-6 dybde">
+            <div class="col-sm-6 dybde">
+                <h2>Om konkurranse, fagforeninger, skatt og ledelse</h2>
+                <img src="#">
+            </div>
+            <div class="col-sm-6 dybde">
+                <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                <button type="button">LES</button>
+            </div>
+        </div>
+        <div class="col-sm-3 samfunnsviterne.no">
+            <h4>Modul 2 - Kurs i arbeidsrett 1</h4>
+            <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+            <button type="button">LES</button>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>Annonse</h4>
+            </div>
+    </div>
+
+
+
+
+        <!-- FREMHEVET ARTIKKEL -->
+    <div class="row">
+        <div class="col-sm-6">
+        <img src="img/01.jpg" class="img-responsive">
+        </div>
+        <div class="col-sm-6">
+            <p id="dybde_tema"> Dybde </p>
+            <h2 id="dybde_tittel"> FREMHEVET ARTIKKEL</h2>
+            <p id="dybde_innhold"> Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer </p>
+            <button type="button">LES ARTIKKELEN</button>
+        </div>
+    </div>
+
+    <!-- SAMFUNNSVITERNE -->
+    <div class="row">
+        <div class="col-sm-6 samfunnsviterne">
+            <img src="#">
+            <p><b>Vi viser vei for våre medlemmer</b></p>
+            <p>lorem ipsum</p>  
+            <button type="button">LES MER PÅ SAMFUNNSVITERNE.NO</button>  
+        </div>
+        <div class="col-sm-6 samfunnsviterne">
+            <ul>
+                <li>Medlemskap</li>
+                <li>Medlemsfordeler</li>
+                <li>Kurs og aktiviteter</li>
+                <li>Arbeid og karriere</li>                
+            </ul>
+        </div>        
+    </div>
+
+
+
+
+
+    <div class="row">
+        <div class="col-sm-3 aktuelt">
+            <h4>Aktuelt</h4>
+            <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+            <button type="button">LES</button>
+        </div>
+        <div class="col-sm-6 ung">
+            <div class="col-sm-6 ung">
+                <h2>Fremtidens teknologi og et nytt arbeidsliv</h2>
+                <img src="img/01.jpg" class="img-responsive">  
+            </div>
+            <div class="col-sm-6 ung">
+                <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                <button type="button">LES</button>
+            </div>
+        </div>
+        <div class="col-sm-3 aktuelt">
+            <h4>Aktuelt</h4>
+            <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+            <button type="button">LES</button>
+        </div>
+    </div>
