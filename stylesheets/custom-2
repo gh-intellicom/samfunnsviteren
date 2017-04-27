@@ -1,4 +1,4 @@
-    <!-- ARTIKLER DEL 2 -->
+ <!-- ARTIKLER DEL 2 -->
     <div class="row">
         <div class="col-sm-3 hallo_samfunnsviter">
             <h4>Hallo, Samfunnsviter</h4>
@@ -48,45 +48,15 @@
             <div class="col-sm-12">
                 <h4>Annonse</h4>
             </div>
-    </div>
-
-
-
-
-        <!-- FREMHEVET ARTIKKEL -->
-    <div class="row">
-        <div class="col-sm-6">
-        <img src="img/01.jpg" class="img-responsive">
-        </div>
-        <div class="col-sm-6">
-            <p id="dybde_tema"> Dybde </p>
-            <h2 id="dybde_tittel"> FREMHEVET ARTIKKEL</h2>
-            <p id="dybde_innhold"> Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer </p>
-            <button type="button">LES ARTIKKELEN</button>
         </div>
     </div>
 
-    <!-- SAMFUNNSVITERNE -->
-    <div class="row">
-        <div class="col-sm-6 samfunnsviterne">
-            <img src="#">
-            <p><b>Vi viser vei for våre medlemmer</b></p>
-            <p>lorem ipsum</p>  
-            <button type="button">LES MER PÅ SAMFUNNSVITERNE.NO</button>  
-        </div>
-        <div class="col-sm-6 samfunnsviterne">
-            <ul>
-                <li>Medlemskap</li>
-                <li>Medlemsfordeler</li>
-                <li>Kurs og aktiviteter</li>
-                <li>Arbeid og karriere</li>                
-            </ul>
-        </div>        
-    </div>
 
 
 
 
+
+<!-- NOT STARTED YET -->
 
     <div class="row">
         <div class="col-sm-3 aktuelt">
@@ -110,3 +80,110 @@
             <button type="button">LES</button>
         </div>
     </div>
+
+
+
+
+
+
+
+
+    <div class="row colSpace">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="tema">dybde</p>
+                    <h4>Samfunnsendringer og arbeidsliv</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 dybde">
+                    <div class="col-sm-6 ">
+                        <img src="img/01.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-sm-6">
+                        <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                        <button type="button">LES</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="tema">Redaktøren har ordet</p>            
+                    <h4>Redaktøren_har_ordet</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 harOrdet">
+                    <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                    <button type="button">LES</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="tema">Aktuelt</p>  
+                    <h4>UDIs bratte læringskurve</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 aktuelt">
+                    <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                    <button type="button">LES</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+            <div class="col-sm-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="tema">Aktuelt</p>  
+                    <h4>UDIs bratte læringskurve</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 aktuelt">
+                    <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                    <button type="button" class="button-les">LES</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+                <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="tema">dybde</p>
+                    <h4>Samfunnsendringer og arbeidsliv</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 dybde">
+                    <div style="background-image: url('img/01.jpg');" class="col-sm-6 img-artikkel">
+
+                        <!--<img src="img/01.jpg" class="img-responsive">-->
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-12 text-artikkel">
+                                <p>Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                                <button type="button" class="button-les">LES</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

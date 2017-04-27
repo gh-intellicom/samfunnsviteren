@@ -3,15 +3,15 @@
 
 .hr-1 {
     height: 1px;
-    background-color: black;
+    margin-top: 60px;
+    margin-bottom: 60px; 
+    background-color: #999;
 }
-
 .fullw-blue {
     background-color: #00577D;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .fullw-grey {
     background-color: #F6F6F6;
     padding-top: 60px;
@@ -23,12 +23,57 @@
 }
 
 
+/* GENERISK KODE */
+    .res-img {
+        height: 500px;
+        background-repeat: no-repeat;        
+        background-position: center;   
+        background-size: contain ;       
+    }
+    #category {
+        margin-bottom : 45px;
+    }
+    #title { 
+    }
+    #content {
+        margin-top : 15px;
+        margin-bottom : 15px;
+    }
+    .sf-button {
+        border: solid 2px white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 5px;
+        width: 165px;
+        background-color: transparent;
+    }
+    .sf-button2 {
+        border: solid 2px black;
+        padding: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 185px;
+        background-color: transparent;
+    }
+    .spaceX {
+        margin-top : 100px;
+        margin-bottom : 100px; 
+    }
+
+/* GENERISK KODE --------------- DONE */
+
 /* FORSIDE */
 .forside{
     height: auto;
     margin-top: 100px;
     margin-bottom: 100px; 
     color:  white;
+    }
+
+    .forsideTekst { 
+        margin-top: 250px;
+        padding-right : 130px; 
+
     }
     .forside .forsideBilde img {
         display:block;
@@ -38,37 +83,86 @@
 /* DYBDEARTIKKEL HOVED */
 .dybdeartikkel {
     height: auto;
-    margin-top: 100px;
-    margin-bottom: 100px; 
+    }
+    .dybdeartikkel p {
+        padding-right : 60px;
     }
     .forside .forsideBilde img {
         display:block;
         margin:auto;
     }
+    .dybdeartikkel h4 {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+    .faste_spalte h4 {
+        color : #67C0B3;
+    }
+    .ung h4 {
+        color : #F7A712;
+    }
 
-/* INNHOLD */
 
+
+.artBox {
+}
+.artBox .artTop {
+    margin-bottom : 15px;
+}
+.artBox .artBottom {
+    margin-top : 15px;
+    height: 350px;
+}
 
 /* DYBDE */
-
-.dybde , .harOrdet , .aktuelt {
-        min-height: 400px;
+.dybde , .aktuelt {
+        min-height: 350px;
         margin-top: 25px;
         margin-bottom: 25px;
 
         padding-top: 15px;
         padding-bottom: 15px;
 }
+    .img-artikkel {
+        height: 350px;
+        background-repeat: no-repeat;        
+        background-position: center;          
+        background-size: cover;
+    }
+    .text-artikkel {
+        height: 350px;
+        padding: 25px;
+        position: relative;
+    }
+    .button-les {
+        border-radius: 50px;
+        background: transparent;
+        border: 2px solid;
+        padding: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;  
+    
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
 
-.dybde {
+.dybdeC {
     background-color: #F6F6F6;
+    background-clip:content-box;
+
     }
 .harOrdet {  
     background-color: #D9EFEC;
+    background-clip:content-box;
 }
-.aktuelt {
-    background-color: #F6F6F6;
+
+.ungC {
+    background-color: #FDE9C4;
+    background-clip:content-box;
 }
+
+
 
 
 .fremhevet {
@@ -82,17 +176,50 @@
 }
 
 
+
+.samfunnBox {
+    height: auto;
+}
+
+.samfunnsviterne {
+    height: 450px;
+    padding: 50px;
+    background-color: #F6F6F6;
+}
+
+
 .samfunnsviterneFordeler {
-    background-color: red; 
-
+    background-color: #941D78;
+    height: 450px;
+    padding: 50px;
 }
+    .samfunnsviterneFordeler li {
+            list-style-type: none;
+    }
+    .samfunnsviterneFordeler img {
+        height: 87.5px;
+    }
+    h4#singleFordel {
+        display :inline-block;
+        color: white;
+        margin-left: 15px;
+    }
 
 
-
-/* Spacing between section...for now */
-.colSpace {
-    margin-top: 50px;
-    margin-bottom: 50px;
+/* ANNONSE */
+.annonse {
+    color: white;
+    height: 150px;
+    background-color: #941D78 ; 
 }
+    .annonse h2 {
+        margin-top: 65px;
+    }
+
+
+
+
+
+
 
 
