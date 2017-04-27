@@ -1,12 +1,14 @@
+/* Extra Small Devices, Phones */ 
+
+/*@media only screen and (max-width:767px){
+    .fremhevetText {
+        padding: 5px !important;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}*/
 
 /* write all you css code here */
-
-.hr-1 {
-    height: 1px;
-    margin-top: 60px;
-    margin-bottom: 60px; 
-    background-color: #999;
-}
 .fullw-blue {
     background-color: #00577D;
     padding-top: 60px;
@@ -17,13 +19,22 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.fullw-db {
+    background-color: #222930;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
 
 #tema {
     font-style: italic;
 }
 
-
 /* GENERISK KODE */
+    .container {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
     .res-img {
         height: 500px;
         background-repeat: no-repeat;        
@@ -38,8 +49,21 @@
     #content {
         margin-top : 15px;
         margin-bottom : 15px;
+        margin-right : 15px;
     }
-    .sf-button {
+    .button-les {
+        border-radius: 50px;
+        background: transparent;
+        border: 2px solid;
+        padding: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;  
+    
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+    .sfButton {
         border: solid 2px white;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -47,7 +71,7 @@
         width: 165px;
         background-color: transparent;
     }
-    .sf-button2 {
+    .sfButton2 {
         border: solid 2px black;
         padding: 5px;
         margin-top: 30px;
@@ -55,64 +79,50 @@
         width: 185px;
         background-color: transparent;
     }
-    .spaceX {
-        margin-top : 100px;
-        margin-bottom : 100px; 
+    .hr-1 {
+        height: 1px;
+        margin-top: 60px;
+        margin-bottom: 60px; 
+        background-color: #999;
     }
 
-/* GENERISK KODE --------------- DONE */
+/* GENERISK  -------------------- AVSLUTT */
+
 
 /* FORSIDE */
-.forside{
-    height: auto;
-    margin-top: 100px;
-    margin-bottom: 100px; 
+
+.magFront{
     color:  white;
     }
-
-    .forsideTekst { 
+    .magText { 
         margin-top: 250px;
         padding-right : 130px; 
-
-    }
-    .forside .forsideBilde img {
-        display:block;
-        margin:auto;
     }
 
-/* DYBDEARTIKKEL HOVED */
-.dybdeartikkel {
-    height: auto;
-    }
-    .dybdeartikkel p {
+/* FORSIDE -------------------- AVSLUTT */
+
+
+/* HOVEDARTIKKEL HOVED */
+.hovedArtText {
+    padding : 35px 85px 35px 15px;;
+}
+
+    .hovedArtInnhold p {
         padding-right : 60px;
     }
-    .forside .forsideBilde img {
-        display:block;
-        margin:auto;
-    }
-    .dybdeartikkel h4 {
+    .hovedArtInnhold h4 {
         margin-bottom: 35px;
         margin-top: 35px;
     }
-    .faste_spalte h4 {
+    .hovedArtInnhold .fastSpalteArt h4 {
         color : #67C0B3;
     }
-    .ung h4 {
+    .hovedArtInnhold .ungArt h4 {
         color : #F7A712;
     }
 
 
-
-.artBox {
-}
-.artBox .artTop {
-    margin-bottom : 15px;
-}
-.artBox .artBottom {
-    margin-top : 15px;
-    height: 350px;
-}
+/* HOVEDARTIKKEL -------------------- AVSLUTT */
 
 /* DYBDE */
 .dybde , .aktuelt {
@@ -133,18 +143,6 @@
         height: 350px;
         padding: 25px;
         position: relative;
-    }
-    .button-les {
-        border-radius: 50px;
-        background: transparent;
-        border: 2px solid;
-        padding: 10px;
-        padding-top: 12px;
-        padding-bottom: 12px;  
-    
-        position: absolute;
-        bottom: 30px;
-        right: 30px;
     }
 
 .dybdeC {
@@ -177,13 +175,14 @@
 
 
 
+
 .samfunnBox {
     height: auto;
 }
 
 .samfunnsviterne {
     height: 450px;
-    padding: 50px;
+    padding: 60px;
     background-color: #F6F6F6;
 }
 
@@ -198,6 +197,7 @@
     }
     .samfunnsviterneFordeler img {
         height: 87.5px;
+        padding: 15px;
     }
     h4#singleFordel {
         display :inline-block;
@@ -217,7 +217,25 @@
     }
 
 
-
+/* FOOTER */
+.footer {
+    padding : 30px 15px 30px 15px; 
+    color: white;
+}
+    .footer .form-control {
+        height: 45px;
+        background : transparent;
+        border-radius: 0px;
+        border : solid 2px white;
+        color: white;
+    }
+    .footer h3 {
+        margin-bottom : 30px;
+    }
+    .footer .copyright {
+        margin-top: 30px;
+        opacity : 0.5;
+    }
 
 
 
