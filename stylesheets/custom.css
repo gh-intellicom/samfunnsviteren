@@ -8,6 +8,35 @@
     }
 }*/
 
+
+/* FONTS */
+@font-face {
+    font-family: knockout;
+    src: url(font/Knockout-HTF28-JuniorFeatherwt.otf);
+}
+@font-face {
+    font-family: sentinelBookItalic;
+    src: url(font/Sentinel-BookItalic.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: sentinelLight;
+    src: url(font/Sentinel-Light.otf);
+    font-style: italic;
+}
+@font-face {
+    font-family: sentinelBold;
+    src: url(font/Sentinel-Bold.otf);
+    font-style: italic;
+}
+
+
+
+h2 {
+    font-family: knockout ;
+    font-size : 3em;
+}
+
 /* write all you css code here */
 .fullw-blue {
     background-color: #00577D;
@@ -42,28 +71,40 @@
         background-size: contain ;       
     }
     #category {
-        margin-bottom : 45px;
+        font-family: sentinelBookItalic;
+        font-style: italic;
+        font-size: 1em;
     }
     #title { 
+        margin-top : 45px;
+        font-family: knockout;
+        font-size: 4em;
     }
     #content {
+        font-family : sentinelLight ;
+        font-size: 1.1em;
         margin-top : 15px;
         margin-bottom : 15px;
         margin-right : 15px;
     }
+    #heading {
+        font-family : knockout ;
+        font-size : 2.5em;
+    }
     .button-les {
+        font-family: knockout;
         border-radius: 50px;
         background: transparent;
         border: 2px solid;
-        padding: 10px;
-        padding-top: 12px;
-        padding-bottom: 12px;  
+        padding: 15px;
     
         position: absolute;
         bottom: 30px;
         right: 30px;
     }
     .sfButton {
+        font-family: knockout;
+        font-size : 1.2em;
         border: solid 2px white;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -72,6 +113,8 @@
         background-color: transparent;
     }
     .sfButton2 {
+        font-family: knockout;
+        font-size : 1.2em;
         border: solid 2px black;
         padding: 5px;
         margin-top: 30px;
@@ -110,14 +153,16 @@
     .hovedArtInnhold p {
         padding-right : 60px;
     }
-    .hovedArtInnhold h4 {
+    .hovedArtInnhold h5 {
         margin-bottom: 35px;
         margin-top: 35px;
+        font-family : sentinelBold;
+        font-size : 1.5em;
     }
-    .hovedArtInnhold .fastSpalteArt h4 {
+    .hovedArtInnhold .fastSpalteArt h5 {
         color : #67C0B3;
     }
-    .hovedArtInnhold .ungArt h4 {
+    .hovedArtInnhold .ungArt h5 {
         color : #F7A712;
     }
 
@@ -175,22 +220,20 @@
 
 
 
-
-.samfunnBox {
-    height: auto;
-}
-
 .samfunnsviterne {
     height: 450px;
     padding: 60px;
     background-color: #F6F6F6;
 }
-
-
+.samfunnsviterne #header {
+    font-family : sentinelBold;
+    font-weight: bold;
+}
 .samfunnsviterneFordeler {
     background-color: #941D78;
     height: 450px;
     padding: 50px;
+    padding-left : 70px; /* 85px minus 15px from img padding */
 }
     .samfunnsviterneFordeler li {
             list-style-type: none;
@@ -200,6 +243,8 @@
         padding: 15px;
     }
     h4#singleFordel {
+        font-family : knockout;
+        font-size : 2.5em;
         display :inline-block;
         color: white;
         margin-left: 15px;
@@ -210,10 +255,11 @@
 .annonse {
     color: white;
     height: 150px;
+    background-clip:content-box;
     background-color: #941D78 ; 
 }
     .annonse h2 {
-        margin-top: 65px;
+        margin-top: 55px;
     }
 
 
@@ -230,7 +276,8 @@
         color: white;
     }
     .footer h3 {
-        margin-bottom : 30px;
+        font-family: knockout;
+        font-size : 2.5em;
     }
     .footer .copyright {
         margin-top: 30px;
