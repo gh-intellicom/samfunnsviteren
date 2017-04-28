@@ -277,15 +277,21 @@
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 
+
     /* FORSIDE */
 
     .magFront{
+
+/* FORSIDE */
+
+
     color:  white;
     }
     .magText { 
         margin-top: 250px;
         padding-right : 130px; 
     }
+
 
     /* FORSIDE -------------------- AVSLUTT */
 
@@ -305,6 +311,7 @@
     .samfunnsviterneFordeler {
         padding: 50px;
         padding-left : 70px; /* 85px minus 15px from img padding */
+
 
         }
     .footer .img-responsive {
