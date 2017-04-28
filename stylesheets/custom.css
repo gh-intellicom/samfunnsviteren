@@ -8,6 +8,10 @@
     }
 }*/
 
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
 
 /* FONTS */
 @font-face {
@@ -30,11 +34,11 @@
     font-style: italic;
 }
 
-
+        
 
 h2 {
     font-family: knockout ;
-    font-size : 3em;
+    font-size : 2em;
 }
 
 /* write all you css code here */
@@ -66,6 +70,9 @@ h2 {
     }
     .res-img {
         height: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         background-repeat: no-repeat;        
         background-position: center;   
         background-size: contain ;       
@@ -78,7 +85,7 @@ h2 {
     #title { 
         margin-top : 45px;
         font-family: knockout;
-        font-size: 4em;
+        font-size: 30px;
     }
     #content {
         font-family : sentinelLight ;
@@ -89,7 +96,7 @@ h2 {
     }
     #heading {
         font-family : knockout ;
-        font-size : 2.5em;
+        font-size : 25px;
     }
     .button-les {
         font-family: knockout;
@@ -138,7 +145,7 @@ h2 {
     color:  white;
     }
     .magText { 
-        margin-top: 250px;
+        margin-top: 0px;
         padding-right : 130px; 
     }
 
@@ -244,7 +251,7 @@ h2 {
     }
     h4#singleFordel {
         font-family : knockout;
-        font-size : 2.5em;
+        font-size : 25px;
         display :inline-block;
         color: white;
         margin-left: 15px;
@@ -285,6 +292,17 @@ h2 {
     }
 
 
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    .magText { 
+        margin-top: 250px;
+        padding-right : 130px; 
+    }
+
+    }
 
 
 
