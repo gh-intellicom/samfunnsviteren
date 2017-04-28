@@ -12,34 +12,10 @@
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
 
-
-/* FONTS */
-@font-face {
-    font-family: knockout;
-    src: url(font/Knockout-HTF28-JuniorFeatherwt.otf);
-}
-@font-face {
-    font-family: sentinelBookItalic;
-    src: url(font/Sentinel-BookItalic.otf);
-    font-style: italic;
-}
-@font-face {
-    font-family: sentinelLight;
-    src: url(font/Sentinel-Light.otf);
-    font-style: italic;
-}
-@font-face {
-    font-family: sentinelBold;
-    src: url(font/Sentinel-Bold.otf);
-    font-style: italic;
-}
-
-        
-
-h2 {
+/*h2 {
     font-family: knockout ;
     font-size : 2em;
-}
+}*/
 
 /* write all you css code here */
 .fullw-blue {
@@ -59,9 +35,6 @@ h2 {
 
 }
 
-#tema {
-    font-style: italic;
-}
 
 /* GENERISK KODE */
     .container {
@@ -78,28 +51,34 @@ h2 {
         background-size: contain ;       
     }
     #category {
-        font-family: sentinelBookItalic;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
         font-style: italic;
-        font-size: 1em;
+        font-weight: 400;
+        opacity: 0.8;
     }
     #title { 
-        margin-top : 45px;
-        font-family: knockout;
-        font-size: 30px;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
     }
     #content {
-        font-family : sentinelLight ;
-        font-size: 1.1em;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 300;
         margin-top : 15px;
         margin-bottom : 15px;
         margin-right : 15px;
     }
     #heading {
-        font-family : knockout ;
-        font-size : 25px;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        min-height: 45px;
     }
     .button-les {
-        font-family: knockout;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
         border-radius: 50px;
         background: transparent;
         border: 2px solid;
@@ -172,48 +151,49 @@ h2 {
     .hovedArtInnhold .ungArt h5 {
         color : #F7A712;
     }
+    #artContent {
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+    }
 
 
 /* HOVEDARTIKKEL -------------------- AVSLUTT */
 
 /* DYBDE */
-.dybde , .aktuelt {
+.prevArt , .aktuelt {
         min-height: 350px;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
 
         padding-top: 15px;
         padding-bottom: 15px;
 }
     .img-artikkel {
-        height: 350px;
+        min-height: 350px;
         background-repeat: no-repeat;        
         background-position: center;          
         background-size: cover;
     }
     .text-artikkel {
-        height: 350px;
+        min-height: 350px;
         padding: 15px;
         position: relative;
     }
 
-.dybdeC {
+.artGrey {
     background-color: #F6F6F6;
     background-clip:content-box;
 
     }
-.harOrdet {  
+.artGreen {  
     background-color: #D9EFEC;
     background-clip:content-box;
 }
 
-.ungC {
+.artYellow {
     background-color: #FDE9C4;
     background-clip:content-box;
 }
-
-
-
 
 .fremhevet {
     padding: 0px ;
@@ -230,8 +210,11 @@ h2 {
     background-color: #F6F6F6;
 }
 .samfunnsviterne #header {
-    font-family : sentinelBold;
-    font-weight: bold;
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom : -15px; 
+
 }
 .samfunnsviterneFordeler {
     background-color: #941D78;
@@ -246,8 +229,9 @@ h2 {
         padding: 15px;
     }
     h4#singleFordel {
-        font-family : knockout;
-        font-size : 25px;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
         display :inline-block;
         color: white;
         margin-left: 15px;
@@ -279,11 +263,11 @@ h2 {
         color: white;
     }
     .footer h3 {
-        font-family: knockout;
-        font-size : 2.5em;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
     }
     .footer .copyright {
-        margin-top: 30px;
         opacity : 0.5;
     }
 
@@ -293,9 +277,14 @@ h2 {
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 
+
+    /* FORSIDE */
+
+    .magFront{
+
 /* FORSIDE */
 
-.magFront{
+
     color:  white;
     }
     .magText { 
@@ -303,26 +292,31 @@ h2 {
         padding-right : 130px; 
     }
 
-/* FORSIDE -------------------- AVSLUTT */
 
-.fremhevetText {
-    padding-left : 85px;
-    padding-right : 85px;
-}
+    /* FORSIDE -------------------- AVSLUTT */
 
-.text-artikkel {
-    padding : 25px;
-}
-
-.samfunnsviterne {
-    padding: 60px;
-}
-
-.samfunnsviterneFordeler {
-    padding: 50px;
-    padding-left : 70px; /* 85px minus 15px from img padding */
-
-    }
+    .fremhevetText {
+        padding-left : 85px;
+        padding-right : 85px;
     }
 
+    .text-artikkel {
+        padding : 25px;
+    }
+
+    .samfunnsviterne {
+        padding: 60px;
+    }
+
+    .samfunnsviterneFordeler {
+        padding: 50px;
+        padding-left : 70px; /* 85px minus 15px from img padding */
+
+
+        }
+    .footer .img-responsive {
+        padding: 25px;
+    }
+
+}
 
