@@ -100,10 +100,13 @@
         padding-right: 8px;
         bottom: 30px;
         right: 30px;
+        position: absolute;
     }
     .sfButton {
-        font-family: knockout;
-        font-size : 1.2em;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
         border: solid 1px white;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -112,8 +115,10 @@
         background-color: transparent;
     }
     .sfButton2 {
-        font-family: knockout;
-        font-size : 1.2em;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 45px;
         border: solid 1px black;
         padding: 10px;
         margin-top: 30px;
@@ -151,12 +156,18 @@
 
     .hovedArtInnhold p {
         padding-right : 60px;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 400;
+        font-size : 16px;
     }
     .hovedArtInnhold h5 {
         margin-bottom: 35px;
         margin-top: 35px;
-        font-family : sentinelBold;
-        font-size: 23px;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
     }
     .hovedArtInnhold .fastSpalteArt h5 {
         color : #67C0B3;
@@ -191,6 +202,12 @@
         min-height: 350px;
         padding: 15px;
         position: relative;
+    }
+    .prevArt p#content {
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
     }
 
 .artGrey {
