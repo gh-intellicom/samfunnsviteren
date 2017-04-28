@@ -35,6 +35,11 @@
 
 }
 
+.magText h2#title, 
+.magText p#category,
+.magText p#content {
+    color : white;
+}
 
 /* GENERISK KODE */
     .container {
@@ -78,22 +83,24 @@
         font-family: "Knockout 28 A", "Knockout 28 B";
         font-style: normal;
         font-weight: 400;
-        min-height: 75px;
+        min-height: 76px;
+
         font-size : 35px;
         color: #364962;
     }
     .button-les {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        border-radius: 50px;
-        background: transparent;
-        border: 2px solid;
-        padding: 15px;
-    
-        position: absolute;
-        bottom: 30px;
-        right: 30px;
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #364962 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: 30px;
+    right: 30px;
     }
     .sfButton {
         font-family: knockout;
@@ -215,6 +222,9 @@
     height: 450px;
     padding: 30px;
     background-color: #F6F6F6;
+}
+.samfunnsviterne img {
+     padding-bottom: 45px;
 }
 .samfunnsviterne #header {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
