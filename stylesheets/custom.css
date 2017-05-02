@@ -17,6 +17,31 @@
     font-size : 2em;
 }*/
 
+nav.navbar.navbar-light {
+    margin : 0px;
+    border-radius: 0px;
+    padding-bottom : 20px;
+    padding-top : 20px;
+    background-color: #00577D;
+}
+nav.navbar.navbar-light li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+nav.navbar.navbar-light a {
+    color: white;
+    background-color: transparent;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 700;
+}
+.navbar-toggle {
+    background-color: white;
+}
+.navbar-toggle .icon-bar {
+    background-color: #941D78;
+}
+
 /* write all you css code here */
 .fullw-blue {
     background-color: #00577D;
@@ -41,11 +66,6 @@
     color : white;
 }
 
-/* GENERISK KODE */
-    .container {
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
     .res-img {
         height: 500px;
         display: block;

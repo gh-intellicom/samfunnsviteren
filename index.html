@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <!-- FONTS -->
     <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6823174/6134172/css/fonts.css" />
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -18,6 +21,39 @@
 </head>
 
 <body>
+
+<nav class="navbar navbar-light">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand welcome" href="#">SAMFUNNSVITEREN</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">js-enter</button>
+      </form>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li id="tidUtg"> <a href="#">Tidligere Utgivelser</a></li>
+        <li id="bliMedlem"> <a href="#">Bli medlem </a></li>
+        <li id="linkSam"> <a href="#">Samfunnsviterne.no </a></li>
+        <li> <img src="img/logo-01.png" style="height : 50px;"></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
     <!-- Forside -->
 <div class="fullw-blue">
@@ -86,6 +122,331 @@
         </div>
     </div>
 </div>
+
+
+    <!-- ARTIKLER -->
+<div class="container">
+    <div class="row">
+        <!-- DYBDE (MED BILDE) ARTIKKEL -->
+        <div class="col-sm-12 col-md-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="category">Dybde</p>
+                    <h4 id="heading">Samfunnsendringer og arbeidsliv</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 prevArt artGrey">
+                    <div style="background-image: url('img/01.jpg');" class="col-sm-6 img-artikkel">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-12 text-artikkel">
+                                <p id="content">Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                                <button type="button" class="button-les">LES</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- REDAKTØREN HAR ORDET ARTIKKEL -->
+        <div class="col-sm-6 col-md-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="category">Redaktøren har ordet</p>
+                    <h4 id="heading">Redaktøren har ordet Redaktøren har ordet</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="prevArt artGreen">
+                        <div class="text-artikkel">
+                            <p id="content">Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                            <button type="button" class="button-les">LES</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DYBDE (TEKST) -->
+        <div class="col-sm-6 col-md-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="category">Dybde</p>
+                    <h4 id="heading">Samfunnsendringer</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="prevArt artGrey">
+                        <div class="text-artikkel">
+                            <p id="content">Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                            <button type="button" class="button-les">LES</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- AKTUELT (TEKST) -->
+        <div class="col-sm-6 col-md-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="category">Aktuelt</p>
+                    <h4 id="heading">Bruk av IKT gir bedre læring</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="prevArt artGrey">
+                        <div class="text-artikkel">
+                            <p id="content">Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                            <button type="button" class="button-les">LES</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- UNG (MED BILDE) ARTIKKEL -->
+        <div class="col-sm-12 col-md-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="category">Ung</p>
+                    <h4 id="heading">Fremtidens teknologie og et nytt arbeidsliv</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 prevArt artYellow">
+                    <div style="background-image: url('img/05.jpg');" class="col-sm-6 img-artikkel">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-12 text-artikkel">
+                                <p id="content">Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                                <button type="button" class="button-les">LES</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- AKTUELT (TEKST) -->
+        <div class="col-sm-6 col-md-3">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p id="category">Aktuelt</p>
+                    <h4 id="heading">Bruk av IKT gir bedre læring</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="prevArt artGrey">
+                        <div class="text-artikkel">
+                            <p id="content">Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                            <button type="button" class="button-les">LES</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- FREMHEVET ARTIKKEL -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="col-sm-6 fremhevet">
+                <img src="img/02.jpg" class="img-responsive">
+            </div>
+            <div class="col-sm-6 fremhevetText">
+                <p id="category"> Dybde </p>
+                <h2 id="title"> FREMHEVET ARTIKKEL</h2>
+                <p id="content"> Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer </p>
+                <button type="button" class="sfButton2">LES MER</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <!-- SAMFUNNSVITERNE -->
+    <div class="container ">
+        <div class="row ">
+                <div class="col-sm-6">
+                    <div class="samfunnsviterne">
+                        <img src="img/svt-logo.png" class="img-responsive">
+                        <p id="header"> Vi viser vei for våre medlemmer</p>
+                        <p id="content"> Er du en samfunnsviter eller humanist med utdanning på masterniå, så hører du hjemme hos oss! Våre medlemmer skal være trygge på at vi er en pådriver fpr deres lønns- og arbeidsbetingelser - at vi aktivt jobber for å heve deres lønnsnivåer og for æ fremme deres økonomiske interesser og faglige kompetanse.</p>  
+                        <button type="button" class="sfButton2">LES MER PÅ SAMFUNNSVITEREN.NO</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="samfunnsviterneFordeler">
+                        <li> <img src="img/svt-ikon-wht-01.png" > <h4 id="singleFordel">Medlemskap <span class="glyphicon glyphicon-arrow-right"> </h4> </li>
+                        <li> <img src="img/svt-ikon-wht-02.png" > <h4 id="singleFordel">Medlemsfordeler <span class="glyphicon glyphicon-arrow-right"> </h4> </li>
+                        <li> <img src="img/svt-ikon-wht-03.png" > <h4 id="singleFordel">Kurs og aktiviteter <span class="glyphicon glyphicon-arrow-right"> </h4></li>
+                        <li> <img src="img/svt-ikon-wht-04.png" > <h4 id="singleFordel">Arbeid og karriere <span class="glyphicon glyphicon-arrow-right"> </h4></li>                
+                    </div>
+                </div>        
+        </div>
+    </div>
+
+
+    <!-- ANNONSE -->
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 annonse">
+                <h2 class="text-center">[Annonse]</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="fullw-db"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 footer">
+                    <div class="row">            
+                        <div class="col-sm-4">
+                            <h3>Hold deg oppdatert</h3>
+                                <form class="form-inline">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="#" placeholder="Din e-post">
+                                    </div>
+                                    <button type="submit" class="form-control">SEND</button>
+                                </form>
+                            
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="row">
+                                <h3>Kontakt oss</h2>
+                                <div class="col-sm-4">
+                                    <p>Telefon</p>
+                                    <p>E-post</p>
+                                </div>
+                                <div class="col-sm-8">
+                                    <p>12 34 56 78</p>
+                                    <p>post@samfunnsviterne.no</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="img/svt-logo-wht.png" class="img-responsive">
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="col-sm-12 copyright">
+                                <p>&copy; 2017 Samfunnsviterne</p>
+                            </div>
+                        </div>
+                </div>
+            </div>                
+        </div>
+    </div>
+
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+
+<script src="javascripts/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+                        
+
+
+    <!-- Forside -->
+<div class="fullw-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 magFront">
+                <div class="row">
+                    <div class="col-sm-6 hidden-xs magImg">
+                        <div style="background-image: url('img/04.jpg');" class="res-img"></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-12 magText">
+                        <p id="category"><u> Tema - Det nye arbeidslivet - 1/4 </u></p>
+                        <h2 id="title"> SAMFUNNSENDRINGER OG ARBEIDSLIV </h2>
+                        <p id="content"> Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer</p>
+                        <button type="button" class="sfButton">LES MER</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Dybdeartikkel -->
+<div class="fullw-grey">
+    <div class="container">
+        <div class="row"> 
+            <div class="col-sm-12 hovedArt">
+                <div class="row">
+                    <div class="col-sm-6 hovedArtText">
+                        <p id="category"> Dybdeartikkel </p>
+                        <h2 id="title"> TITTEL PÅ UTGAVENS HOVEDARTIKKEL </h2>
+                        <p id="content"> Landet vårt opplever store Samfunnsendringer på grunn av blant annet migrasjon, radikalisering, en aldrende befolkning og en økende grad urbanisering. Hvordan påvirkes arbeidslivet av slike samfunnsendringer </p>
+                        <button type="button" class="sfButton2">LES ARTIKKELEN</button>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/02.jpg" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hr-1"></div>
+
+    <!-- INNHOLD -->
+        <h2 id="artContent">Innhold</h2>
+        <div class="row">
+            <div class="hovedArtInnhold">
+                <div class="col-sm-6 col-md-3 fastSpalteArt">
+                    <h5>Faste spalte</h5>
+                    <p>Redaktøren har ordet. Foreningens leder har ordet. Hallo, Samfunnsviter.</p>
+                </div>
+                <div class="col-sm-6 col-md-3 ungArt">
+                    <h5>Ung</h5>
+                    <p>Fremtidens teknologi og et nytt arbeidsliv. En god hjelper dersom man er langtidsyk.</p>
+                </div>
+                <div class="col-sm-6 col-md-3 dybdeArt">
+                    <h5>Dybdeartikkel</h5>
+                    <p>Samfunnsendringer og arbeidsliv. ingen kan trylle frem arbeidsplasser. Om konkurranse, fagforeninger, skatt og ledelse.</p>
+                </div>
+                <div class="col-sm-6 col-md-3 aktueltArt">
+                    <h5>Aktuelt</h5>
+                    <p>UDI´s bratte læringskurve. Bruk av IKT gir bedre læring. internett som demokratibygger. Tar skrivende roboter over journalistjobber?3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
     <!-- ARTIKLER -->
 <div class="container">
