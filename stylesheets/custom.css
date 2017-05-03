@@ -12,28 +12,42 @@
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
 
-/*h2 {
-    font-family: knockout ;
-    font-size : 2em;
-}*/
-
+#siteName a{
+    font-size: 18px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 500;
+}
+#releaseNum a {
+    font-size: 18px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: italic;
+    font-weight: 400;
+}
 nav.navbar.navbar-light {
     margin : 0px;
     border-radius: 0px;
     padding-bottom : 20px;
     padding-top : 20px;
     background-color: #00577D;
+
+    border-style:solid;
+    border-width:3px;  
+    border-bottom-color:#0a5373;;
+
+
 }
 nav.navbar.navbar-light li {
     padding-left: 10px;
     padding-right: 10px;
 }
 nav.navbar.navbar-light a {
-    color: white;
     background-color: transparent;
-        font-family: "Sentinel SSm A", "Sentinel SSm B";
-        font-style: normal;
-        font-weight: 700;
+    color: white;
+    font-size: 12px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
 }
 .navbar-toggle {
     background-color: white;
@@ -52,6 +66,7 @@ nav.navbar.navbar-light a {
     background-color: #F6F6F6;
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-bottom: 60px;
 }
 .fullw-db {
     background-color: #222930;
@@ -86,13 +101,14 @@ nav.navbar.navbar-light a {
         font-family: "Knockout 28 A", "Knockout 28 B";
         font-style: normal;
         font-weight: 400;
-        font-size: 45px;
+        font-size: 48px;
         color: #364962;
     }
     #content {
         font-family: "Sentinel SSm A", "Sentinel SSm B";
         font-style: normal;
         font-weight: 300;
+        line-height: 1.8;
         font-size: 15px;
         margin-top : 15px;
         margin-bottom : 15px;
@@ -111,6 +127,7 @@ nav.navbar.navbar-light a {
         font-family: "Knockout 28 A", "Knockout 28 B";
         font-style: normal;
         font-weight: 400;
+        font-size: 18px;
         border-radius: 50%;
         background: transparent;
         border: 1px solid #364962 ;
@@ -129,7 +146,7 @@ nav.navbar.navbar-light a {
         font-size: 18px;
         border: solid 1px white;
         margin-top: 30px;
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
         padding: 5px;
         min-width: 165px;
         background-color: transparent;
@@ -142,7 +159,7 @@ nav.navbar.navbar-light a {
         border: solid 1px black;
         padding: 10px;
         margin-top: 30px;
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
         min-width: 185px;
         background-color: transparent;
     }
@@ -155,6 +172,10 @@ nav.navbar.navbar-light a {
 
 /* GENERISK  -------------------- AVSLUTT */
 
+.col-space {
+    padding-top : 60px;
+    padding-bottom : 60px;
+}
 
 /* FORSIDE */
 
@@ -175,11 +196,12 @@ nav.navbar.navbar-light a {
 }
 
     .hovedArtInnhold p {
-        padding-right : 60px;
+        padding-right : 45px;
         font-family: "Sentinel SSm A", "Sentinel SSm B";
         font-style: normal;
         font-weight: 400;
-        font-size : 15px;
+        font-size : 14px;
+        line-height: 1.8;
     }
     .hovedArtInnhold h5 {
         margin-bottom: 35px;
@@ -227,7 +249,7 @@ nav.navbar.navbar-light a {
         font-family: "Sentinel SSm A", "Sentinel SSm B";
         font-style: normal;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 14px;
     }
 
 .artGrey {
@@ -379,3 +401,26 @@ nav.navbar.navbar-light a {
 
 }
 
+
+
+
+
+/* COLLAPSE NAVBAR EARLIER */
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+/* END --COLLAPSE NAVBAR EARLIER */
