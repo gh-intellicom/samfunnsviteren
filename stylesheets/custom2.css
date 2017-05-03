@@ -1,7 +1,45 @@
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-        .spaceX {
-            margin-top : 10px;
-            margin-bottom : 10px; 
-        }
-    }
+/* MEDLEM SIDE */
+.bliMedlem {
+    color: white;
+    background-color: #941D78; 
+    border: 0px;
+    padding: 22px;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#txt1 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+#txt2 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+}
+
+.left-img {
+    height: 300px;
+    margin-bottom : 10px;
+    left: 0;
+    background-repeat: no-repeat;        
+    background-size: contain ;      
+}
+/* END -- MEDLEM SIDE */
+
+
+.showCat {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
