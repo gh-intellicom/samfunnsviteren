@@ -27,11 +27,22 @@
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 400;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#txt3 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 45px;
+    margin-bottom: 15px;
 }
 
 .left-img {
     height: 300px;
-    margin-bottom : 10px;
+    margin-bottom : 15px;
     left: 0;
     background-repeat: no-repeat;        
     background-size: contain ;      
