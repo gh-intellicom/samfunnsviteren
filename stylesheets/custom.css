@@ -96,66 +96,34 @@ nav.navbar.navbar-light a {
         margin-bottom: 50px;
         
     }
-    #category {
-        font-family: "Sentinel SSm A", "Sentinel SSm B";
-        font-style: italic;
-        font-weight: 400;
-        opacity: 0.8;
-        color:#677588;
-    }
+
     #title { 
         font-family: "Knockout 28 A", "Knockout 28 B";
         font-style: normal;
         font-weight: 400;
-        font-size: 48px;
+        font-size: 56px;
         color: #364962;
+        margin-top: 20px;
+        margin-bottom: 20px; 
     }
-    #content {
-        font-family: "Sentinel SSm A", "Sentinel SSm B";
-        font-style: normal;
-        font-weight: 300;
-        line-height: 1.8;
-        font-size: 16px;
-        margin-top : 15px;
-        margin-bottom : 15px;
-        /*margin-right : 15px;*/
-        color: #364962;
-    }
-    #heading {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
+
+    .headingBox {
+        position: relative;
         min-height: 76px;
-        font-size : 35px;
-        color: #364962;
     }
-    .button-les {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        border-radius: 50%;
-        background: transparent;
-        border: 1px solid #364962 ;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 8px;
-        padding-right: 8px;
-        bottom: 30px;
-        right: 30px;
-        position: absolute;
-    }
+
     .sfButton {
         font-family: "Knockout 28 A", "Knockout 28 B";
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         border: solid 1px white;
-        margin-top: 30px;
+        margin-top: 15px;
         /*margin-bottom: 30px;*/
         padding: 5px;
         min-width: 165px;
         background-color: transparent;
+        letter-spacing: 1px;
     }
     .sfButton2 {
         font-family: "Knockout 28 A", "Knockout 28 B";
@@ -164,16 +132,17 @@ nav.navbar.navbar-light a {
         font-size: 18px;
         border: solid 1px black;
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 15px;
         /*margin-bottom: 30px;*/
         min-width: 185px;
         background-color: transparent;
+        letter-spacing: 1px;
     }
     .hr-1 {
         height: 1px;
         margin-top: 60px;
         margin-bottom: 60px; 
-        background-color: #999;
+        background-color: #ccc;
     }
 
 /* GENERISK  -------------------- AVSLUTT */
@@ -191,6 +160,7 @@ nav.navbar.navbar-light a {
     .magText { 
         margin-top: 0px;
         padding-right: 0px;
+        color: white;
     }
 
 /* FORSIDE -------------------- AVSLUTT */
@@ -215,7 +185,7 @@ nav.navbar.navbar-light a {
         font-family: "Sentinel SSm A", "Sentinel SSm B";
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 20px;
     }
     .hovedArtInnhold .fastSpalteArt h5 {
         color : #67C0B3;
@@ -227,51 +197,13 @@ nav.navbar.navbar-light a {
         font-family: "Knockout 28 A", "Knockout 28 B";
         font-style: normal;
         font-weight: 400;
+        color: #364962;
+        font-size : 34px;
     }
 
 
 /* HOVEDARTIKKEL -------------------- AVSLUTT */
 
-/* DYBDE */
-.prevArt , .aktuelt {
-        min-height: 350px;
-        margin-bottom: 15px;
-
-        padding-top: 15px;
-        padding-bottom: 15px;
-}
-    .img-artikkel {
-        min-height: 350px;
-        background-repeat: no-repeat;        
-        background-position: center;          
-        background-size: cover;
-    }
-    .text-artikkel {
-        min-height: 350px;
-        padding: 15px;
-        position: relative;
-    }
-    .prevArt p#content {
-        font-family: "Sentinel SSm A", "Sentinel SSm B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-    }
-
-.artGrey {
-    background-color: #F6F6F6;
-    background-clip:content-box;
-
-    }
-.artGreen {  
-    background-color: #D9EFEC;
-    background-clip:content-box;
-}
-
-.artYellow {
-    background-color: #FDE9C4;
-    background-clip:content-box;
-}
 
 .fremhevet {
     padding: 0px ;
@@ -282,81 +214,6 @@ nav.navbar.navbar-light a {
 
 }
 
-.samfunnsviterne {
-    height: 450px;
-    padding: 30px;
-    background-color: #F6F6F6;
-}
-.samfunnsviterne img {
-     padding-bottom: 45px;
-}
-.samfunnsviterne #header {
-    font-family: "Sentinel SSm A", "Sentinel SSm B";
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom : -15px; 
-
-}
-.samfunnsviterneFordeler {
-    background-color: #941D78;
-    height: 450px;
-    padding: 30px;
-}
-    .samfunnsviterneFordeler li {
-            list-style-type: none;
-    }
-    .samfunnsviterneFordeler img {
-        height: 87.5px;
-        padding: 15px;
-    }
-    h4#singleFordel {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        display :inline-block;
-        color: white;
-        margin-left: 15px;
-        font-size: 30px;
-    }
-
-
-/* ANNONSE */
-.annonse {
-    color: white;
-    height: 150px;
-    background-clip:content-box;
-    background-color: #941D78 ; 
-}
-    .annonse h2 {
-        margin-top: 55px;
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-    }
-
-
-/* FOOTER */
-.footer {
-    padding : 30px 15px 30px 15px; 
-    color: white;
-}
-    .footer .form-control {
-        height: 45px;
-        background : transparent;
-        border-radius: 0px;
-        border : solid 2px white;
-        color: white;
-    }
-    .footer h3 {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 35px;
-        padding-bottom: 15px;
-    }
-    .footer .copyright {
-        opacity : 0.5;
-    }
 
 
 
@@ -373,7 +230,7 @@ nav.navbar.navbar-light a {
     color:  white;
     }
     .magText { 
-        margin-top: 230px;
+        margin-top: 150px;
         padding-right : 130px; 
     }
 
@@ -383,10 +240,6 @@ nav.navbar.navbar-light a {
     .fremhevetText {
         padding-left : 85px;
         padding-right : 85px;
-    }
-
-    .text-artikkel {
-        padding : 25px;
     }
 
     .samfunnsviterne {
@@ -399,10 +252,6 @@ nav.navbar.navbar-light a {
 
 
         }
-    .footer .img-responsive {
-        padding: 25px;
-    }
-
 }
 
 
@@ -428,3 +277,75 @@ nav.navbar.navbar-light a {
 }
 
 /* END --COLLAPSE NAVBAR EARLIER */
+
+
+
+/* ANNONSE - MODUL */
+
+.annonse {
+    margin-bottom: 60px;
+    color: white;
+    height: 150px;
+    background-clip:content-box;
+    background-color: #941D78 ; 
+}
+    .annonse h2 {
+        margin-top: 55px;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+    }
+
+/* ANNONSE */
+
+
+/* SAMFUNNSVITEREN - MODUL */
+
+.samfunnsviterne {
+    height: 500px;
+    padding: 45px;
+    background-color: #F6F6F6;
+    margin-right : -15px;
+}
+.samfunnsviterne img {
+    max-height: 95px;
+    padding-bottom: 45px;
+}
+.samfunnsviterne #header {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom : -15px; 
+
+}
+.samfunnsviterneFordeler {
+    background-color: #941D78;
+    margin-left : -15px;
+    height: 500px;
+    padding: 45px;
+}
+    .samfunnsviterneFordeler li {
+            list-style-type: none;
+    }
+    .samfunnsviterneFordeler img {
+        height: 100px;
+        padding: 20px;
+    }
+    h4#singleFordel {
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        display :inline-block;
+        color: white;
+        margin-left: 15px;
+        font-size: 30px;
+    }
+    .samfunnsviterne p#content {
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+/* samfunnsviteren MODUL */
+
