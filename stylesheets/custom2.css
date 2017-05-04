@@ -1,9 +1,16 @@
-/* MEDLEM SIDE */
+
+/* Medlem.html */
+/* kategori.html */
+
+
+
+/* Medlem.html */
+
 .bliMedlem {
     color: white;
     background-color: #941D78; 
     border: 0px;
-    padding: 22px;
+    padding: 30px;
     text-align: left;
     width: 100%;
     margin-top: 20px;
@@ -19,15 +26,15 @@
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 700;
-    margin-top: 10px;
-    margin-bottom:20px;
+    margin-top: 15px;
+    margin-bottom:30px;
 }
 
 #txt2 {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -35,22 +42,227 @@
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    margin-top: 45px;
+    font-size: 15px;
+    margin-top: 60px;
     margin-bottom: 15px;
 }
 
 .left-img {
     height: 300px;
-    margin-bottom : 15px;
+    margin-top : 20px;
     left: 0;
     background-repeat: no-repeat;        
     background-size: contain ;      
 }
-/* END -- MEDLEM SIDE */
+
+/* END -- MEMBER PAGE */
 
 
-.showCat {
+
+
+
+
+/* kategori.html */
+
+.showCat  {
     margin-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 60px;    
 }
+h2#catHeader {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+/* END - CATEGORY PAGE */
+
+
+
+
+/* ARTIKKEL STYLE  - TOP PART */
+
+.singleArt {
+    margin-top : 15px;
+}
+.topSection {
+    min-height: 105px;
+}
+.topSectionText {
+    position: absolute;
+    bottom : 0;
+}
+.catDate {
+    height: 15px;
+}
+.catDate ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.catDate li {
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+#heading {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size : 35px;
+    color: #364962;
+}
+#category {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: italic;
+    font-weight: 400;
+    opacity: 0.8;
+    color:#677588;
+}
+#releaseDate {}
+
+
+/* ARTIKKEL STYLE  - BOTTOM PART */    
+
+.prevArt , .aktuelt {
+    min-height: 350px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.artGrey {
+    background-color: #F6F6F6;
+    background-clip:content-box;
+}
+.artGreen {  
+    background-color: #D9EFEC;
+    background-clip:content-box;
+}
+.artYellow {
+    background-color: #FDE9C4;
+    background-clip:content-box;
+}
+.artBlue {
+    background-color: #E4F4FD;
+    background-clip:content-box;
+}
+.artPurple {
+    background-color: #941D78;
+    background-clip:content-box;
+}
+.img-artikkel {
+    min-height: 350px;
+    background-repeat: no-repeat;        
+    background-position: center;          
+    background-size: cover;
+}
+.text-artikkel {
+    min-height: 350px;
+    padding: 15px;
+    position: relative;
+}
+.text-artikkel {
+    padding : 25px;
+}
+#content {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 18px;
+    margin-top : 15px;
+    margin-bottom : 15px;
+    /*margin-right : 15px;*/
+    color: #364962;
+}
+.prevArt p#content {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.button-les {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #364962 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
+    letter-spacing: 1px;
+}
+
+/* END -- ARTIKKEL STYLE */
+
+/* MODUL 2 */
+
+.artPurple {
+    color: white;
+}
+.artPurple #content {
+    color: white;
+}
+
+/* END MODUL 2 */
+
+
+
+
+/* FOOTER - MODUL */
+.footer {
+    padding : 30px 15px 30px 15px; 
+    color: white;
+}
+    .footer h3 {
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+    .copyright {
+        margin-top : 15px;
+        opacity : 0.5;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: italic;
+        font-weight: 400;
+    }
+    .footer .img-responsive {
+        padding: 30px;
+    }
+
+    #phone, #mail {
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 700;
+    }
+    #phoneNr, #mailText {
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 400;
+    }
+    .form-control {
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 0;
+        
+    }
+    .input-group button.btn {
+        background-color: transparent;
+        border-color: white;
+        padding: 10px;
+        border-radius: 0;
+
+        
+    }
+
+
+/* END - FOOTER */
