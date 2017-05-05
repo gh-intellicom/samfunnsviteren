@@ -23,16 +23,13 @@
     }
 /* FORSIDE -------------------- AVSLUTT */
 
-
-
-
-#siteName a{
+span#siteName{
     font-size: 19px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 500;
 }
-#releaseNum a {
+span#releaseNum {
     font-size: 19px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: italic;
