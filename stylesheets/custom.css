@@ -12,14 +12,28 @@
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
 
+/* FORSIDE */
+.magFront{
+    color:  white;
+    }
+    .magText { 
+        margin-top: 50px;
+        padding-right: 0px;
+        color: white;
+    }
+/* FORSIDE -------------------- AVSLUTT */
+
+
+
+
 #siteName a{
-    font-size: 18px;
+    font-size: 19px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 500;
 }
 #releaseNum a {
-    font-size: 18px;
+    font-size: 19px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: italic;
     font-weight: 400;
@@ -42,7 +56,7 @@ nav.navbar.navbar-light li {
 nav.navbar.navbar-light a {
     background-color: transparent;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 400;
@@ -80,7 +94,7 @@ nav.navbar.navbar-light a {
 }
 
     .res-img {
-        height: 500px;
+        height: 250px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -93,6 +107,9 @@ nav.navbar.navbar-light a {
         font-style: italic;
         font-weight: 400;
         opacity: 0.8;
+        padding-bottom: 10px;
+        width: 225px;
+        border-bottom: solid 2px;
         margin-bottom: 50px;
         
     }
@@ -138,6 +155,37 @@ nav.navbar.navbar-light a {
         background-color: transparent;
         letter-spacing: 1px;
     }
+    .sfButton3 {
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        border: solid 1px white;
+        margin-top: 15px;
+        /*margin-bottom: 30px;*/
+        padding: 5px;
+        min-width: 165px;
+        background-color: transparent;
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 30px;
+    }
+    .sfButton4 {
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        border: solid 1px black;
+        padding: 10px;
+        margin-top: 15px;
+        /*margin-bottom: 30px;*/
+        min-width: 185px;
+        background-color: transparent;
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 30px;
+    }        
+
     .hr-1 {
         height: 1px;
         margin-top: 60px;
@@ -152,23 +200,11 @@ nav.navbar.navbar-light a {
     padding-bottom : 60px;
 }
 
-/* FORSIDE */
-
-.magFront{
-    color:  white;
-    }
-    .magText { 
-        margin-top: 0px;
-        padding-right: 0px;
-        color: white;
-    }
-
-/* FORSIDE -------------------- AVSLUTT */
-
 
 /* HOVEDARTIKKEL HOVED */
+
 .hovedArtText {
-    padding : 35px 85px 35px 15px;;
+    padding : 35px 35px 35px 15px;;
 }
 
     .hovedArtInnhold p {
@@ -205,61 +241,22 @@ nav.navbar.navbar-light a {
 /* HOVEDARTIKKEL -------------------- AVSLUTT */
 
 
+
 .fremhevet {
     padding: 0px ;
 }
 
 .fremhevetText {
-    padding: 15px;
+    padding: 15px 0px 0px 0px;
 
 }
 
-
-
-
-
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-
-    /* FORSIDE */
-
-    .magFront{
-
-/* FORSIDE */
-    color:  white;
-    }
-    .magText { 
-        margin-top: 150px;
-        padding-right : 130px; 
-    }
-
-
-    /* FORSIDE -------------------- AVSLUTT */
-
-    .fremhevetText {
-        padding-left : 85px;
-        padding-right : 85px;
-    }
-
-    .samfunnsviterne {
-        padding: 60px;
-    }
-
-    .samfunnsviterneFordeler {
-        padding: 50px;
-        padding-left : 70px; /* 85px minus 15px from img padding */
-
-
-        }
-}
 
 
 
 
 
 /* COLLAPSE NAVBAR EARLIER */
-
 
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-collapse.collapse {
@@ -302,10 +299,9 @@ nav.navbar.navbar-light a {
 /* SAMFUNNSVITEREN - MODUL */
 
 .samfunnsviterne {
-    height: 500px;
     padding: 45px;
     background-color: #F6F6F6;
-    margin-right : -15px;
+    margin-right: 0px;
 }
 .samfunnsviterne img {
     max-height: 95px;
@@ -320,7 +316,7 @@ nav.navbar.navbar-light a {
 }
 .samfunnsviterneFordeler {
     background-color: #941D78;
-    margin-left : -15px;
+    margin-left : 0px;
     height: 500px;
     padding: 45px;
 }
