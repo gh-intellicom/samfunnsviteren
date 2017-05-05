@@ -151,6 +151,10 @@ h2#catHeader {
     background-color: #941D78;
     background-clip:content-box;
 }
+.artWhite {
+    background-color: white;
+    background-clip:content-box;
+}
 .img-artikkel {
     min-height: 350px;
     background-repeat: no-repeat;        
@@ -266,3 +270,36 @@ h2#catHeader {
 
 
 /* END - FOOTER */
+
+
+
+/* BIG ARTICLE */
+.longArtBox .magText{
+    margin-top : 0;
+}
+
+ul.list-inline {
+    margin-left: 0;
+    margin-top: 30px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 700;    
+}
+ul.list-inline li p {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+}
+.sosialBox {
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sosialBox img {
+    margin: auto;
+    height: 45px;
+    padding: 5px 5px 10px 5px;
+}
+
+/* END - BIG ARTICLE */
+
