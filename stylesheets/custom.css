@@ -299,6 +299,7 @@ nav.navbar.navbar-light a {
 /* SAMFUNNSVITEREN - MODUL */
 
 .samfunnsviterne {
+    height: 500px;
     padding: 45px;
     background-color: #F6F6F6;
     margin-right: 0px;
@@ -318,7 +319,7 @@ nav.navbar.navbar-light a {
     background-color: #941D78;
     margin-left : 0px;
     height: 500px;
-    padding: 45px;
+    padding: 40px;
 }
     .samfunnsviterneFordeler li {
             list-style-type: none;
