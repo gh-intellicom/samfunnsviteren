@@ -85,6 +85,9 @@ h2#catHeader {
 .singleArt {
     margin-top : 15px;
 }
+.singleArt #content{
+    margin-top : 0px;;
+}
 .topSection {
     min-height: 105px;
 }
