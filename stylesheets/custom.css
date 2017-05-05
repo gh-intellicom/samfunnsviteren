@@ -343,3 +343,67 @@ nav.navbar.navbar-light a {
 
 /* samfunnsviteren MODUL */
 
+
+
+
+/* Relaterte artikler - MODUL */
+
+#relatertArtTitle {
+    font-size: 35px;
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* END Relaterte artikler - MODUL */
+
+
+/* Comment - MODUL */
+
+.commentBox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.commentBox h3#commentTitle {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* END Comment - MODUL */
+
+
+/* Issue - MODUL */
+
+.issue-wrapper {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.issue { 
+    width: 500px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 120px;
+    display: inline-block;
+    white-space: normal;
+    margin-right: -4px;
+}
+.issue1 {
+    background-color: #00577D;
+}
+.issue2 {
+    background-color: #E73130;
+}
+.issue3 {
+    background-color: #941D78;
+}
