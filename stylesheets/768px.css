@@ -1,15 +1,16 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-    /* FORSIDE */
-    .magFront{
-        color:  white;
-    }
+    /* ============= Issue Front ================ */
     .res-img {
         height: 250px;      
     }
-    /* FORSIDE -------------------- AVSLUTT */
+    /* ============================= */
 
     .samfunnsviterne {
         padding: 60px;
@@ -21,9 +22,14 @@
     .samfunnsviterne {
         height: 500px;
     }
+    .quote-text {
+        margin-top: 100px;
+    }        
+    .quote-img img {
+        height: 800px;     
+    }
+
 }
-
-
 
 
 
@@ -35,14 +41,14 @@
     .res-img {
         height: 500px;      
     }
-    .magText { 
+    .issue-text { 
         margin-top: 150px;
         padding-right : 130px; 
     }
-    .fremhevet {
+    .high-article {
         padding: 15px 0 0 0;
     }
-    .fremhevetText {
+    .high-article-text {
         padding-left : 85px;
     }
 .hovedArtText {
@@ -62,3 +68,11 @@
     /* FORSIDE -------------------- AVSLUTT */
 
 }
+
+/* Big Devices, Desktops */
+@media only screen and (min-width : 1400px) {
+
+.samfunnsviterne {
+    padding: 80px;
+}
+
