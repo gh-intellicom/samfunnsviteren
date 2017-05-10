@@ -1,71 +1,173 @@
-/* Extra Small Devices, Phones */ 
-
-/*@media only screen and (max-width:767px){
-    .fremhevetText {
-        padding: 5px !important;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}*/
-
 /*==================================================
-=            Bootstrap 3 Media Queries             =
+=                  Index - Page                    =
 ==================================================*/
-
-/* FORSIDE */
-.magFront{
-    color:  white;
-    }
-    .magText { 
-        margin-top: 50px;
-        padding-right: 0px;
-        color: white;
-    }
-/* FORSIDE -------------------- AVSLUTT */
-
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.navbar-blue {
+    background-color: #00577D;
+}
+.navbar-blue a {
+    color: white !important;
+}
+.navbar-transparent {
+    background-color: white; 
+    border-bottom-color: white !important;
+}
+.navbar-transparent a {
+    color: black;
+}
+.navbar-nav > li > a:hover,{
+    background-color: inherit;
+}
+.navbar {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-style:solid;
+    border-radius: 0;
+    margin-bottom : 0px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, .08);
+}
+.navbar ul li {
+    padding-left: 12px;
+    padding-right: 10px;
+}
+nav.navbar a {
+    color: black;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.navbar-toggle {
+    background-color: #ac7d3e;
+}
+.navbar .icon-bar {
+    background-color: white;
+}
 span#siteName{
-    font-size: 19px;
+    font-size: 20px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
     font-weight: 500;
+    letter-spacing: 2px;
 }
 span#releaseNum {
-    font-size: 19px;
+    font-size: 20px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: italic;
     font-weight: 400;
 }
-nav.navbar.navbar-light {
-    margin : 0px;
-    border-radius: 0px;
-    padding-bottom : 20px;
-    padding-top : 20px;
-    background-color: #00577D;
 
-    border-style:solid;
-    border-width:3px;  
-    border-bottom-color:#0a5373;
+/* ============= Issue Front ================ */
+
+.issue-front{
+    color:  white;
 }
-nav.navbar.navbar-light li {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-nav.navbar.navbar-light a {
-    background-color: transparent;
+.issue-text { 
+    margin-top: 50px;
+    padding-right: 0px;
     color: white;
-    font-size: 13px;
+}
+.issue-text h2#title, 
+.issue-text p#category,
+.issue-text p#content {
+    color : white;
+}
+#topCategory {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: italic;
+    font-weight: 400;
+    padding-bottom: 10px;
+    width: 245px;
+    border-bottom: solid 2px;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+/* ============================= */
+
+
+/* ============= Hoved Artikkel  ================ */
+.hovedArt{}
+
+.hovedArtText {
+    padding : 35px 35px 35px 15px;;
+}
+.hr-1 {
+    height: 1px;
+    margin-top: 60px;
+    margin-bottom: 60px; 
+    background-color: #ccc;
+}
+
+/* ============================= */
+
+
+/* ============= General Front ================ */
+
+a:hover {
+    text-decoration: none;
+    }
+.col-space {
+    padding-top : 60px;
+    padding-bottom : 60px;
+}
+.sfButton {
+    font-family: "Knockout 28 A", "Knockout 28 B";
     font-style: normal;
     font-weight: 400;
+    font-size: 18px;
+    border: solid 1px white;
+    margin-top: 15px;
+    padding: 10px;
+    min-width: 165px;
+    background-color: transparent;
+    letter-spacing: 1px;
 }
-.navbar-toggle {
-    background-color: white;
+.sfButton2 {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 15px;
+    min-width: 185px;
+    background-color: transparent;
+    letter-spacing: 1px;
 }
-.navbar-toggle .icon-bar {
-    background-color: #941D78;
+.sfButton3 {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: solid 1px white;
+    margin-top: 15px;
+    padding: 5px;
+    min-width: 165px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 30px;
 }
-
-/* write all you css code here */
+.sfButton4 {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: solid 1px black;
+    padding: 10px;
+    margin-top: 15px;
+    min-width: 185px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 30px;
+} 
 .fullw-blue {
     background-color: #00577D;
     padding-top: 60px;
@@ -77,141 +179,46 @@ nav.navbar.navbar-light a {
     padding-bottom: 60px;
     margin-bottom: 60px;
 }
-.fullw-db {
+.fullw-footer {
     background-color: #222930;
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
-
-.magText h2#title, 
-.magText p#category,
-.magText p#content {
-    color : white;
+#category {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: italic;
+    font-weight: 400;
+    color:#677588;
 }
-
-    .res-img {
-        height: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        background-repeat: no-repeat;        
-        background-position: center;   
-        background-size: contain ;       
-    }
-    #topCategory {
-        font-family: "Sentinel SSm A", "Sentinel SSm B";
-        font-style: italic;
-        font-weight: 400;
-        opacity: 0.8;
-        padding-bottom: 10px;
-        width: 225px;
-        border-bottom: solid 2px;
-        margin-bottom: 50px;
-        
-    }
-
-    #title { 
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 56px;
-        color: #364962;
-        margin-top: 20px;
-        margin-bottom: 20px; 
-    }
-
-    .headingBox {
-        position: relative;
-        min-height: 76px;
-    }
-
-    .sfButton {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        border: solid 1px white;
-        margin-top: 15px;
-        /*margin-bottom: 30px;*/
-        padding: 5px;
-        min-width: 165px;
-        background-color: transparent;
-        letter-spacing: 1px;
-    }
-    .sfButton2 {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        border: solid 1px black;
-        padding: 10px;
-        margin-top: 15px;
-        /*margin-bottom: 30px;*/
-        min-width: 185px;
-        background-color: transparent;
-        letter-spacing: 1px;
-    }
-    .sfButton3 {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        border: solid 1px white;
-        margin-top: 15px;
-        /*margin-bottom: 30px;*/
-        padding: 5px;
-        min-width: 165px;
-        background-color: transparent;
-        letter-spacing: 1px;
-        position: absolute;
-        bottom: 30px;
-    }
-    .sfButton4 {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        border: solid 1px black;
-        padding: 10px;
-        margin-top: 15px;
-        /*margin-bottom: 30px;*/
-        min-width: 185px;
-        background-color: transparent;
-        letter-spacing: 1px;
-        position: absolute;
-        bottom: 30px;
-    }        
-
-    .hr-1 {
-        height: 1px;
-        margin-top: 60px;
-        margin-bottom: 60px; 
-        background-color: #ccc;
-    }
-
-/* GENERISK  -------------------- AVSLUTT */
-
-.col-space {
-    padding-top : 60px;
-    padding-bottom : 60px;
+h2#title { 
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 54px;
+    color: #364962;
+    margin-top: 20px;
+    margin-bottom: 20px; 
 }
-
-
-/* HOVEDARTIKKEL HOVED */
-
-.hovedArtText {
-    padding : 35px 35px 35px 15px;;
+#content {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-top : 15px;
+    margin-bottom : 15px;
+    color: #364962;
 }
+#artContent {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    color: #364962;
+    font-size : 34px;
+}
+.hovedArtInnhold {}
 
-    .hovedArtInnhold p {
-        padding-right : 45px;
-        font-family: "Sentinel SSm A", "Sentinel SSm B";
-        font-style: normal;
-        font-weight: 400;
-        font-size : 14px;
-        line-height: 1.8;
-    }
     .hovedArtInnhold h5 {
         margin-bottom: 35px;
         margin-top: 35px;
@@ -220,80 +227,152 @@ nav.navbar.navbar-light a {
         font-weight: 700;
         font-size: 20px;
     }
+    .hovedArtInnhold p {
+        padding-right : 45px;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.7;
+    }
     .hovedArtInnhold .fastSpalteArt h5 {
         color : #67C0B3;
     }
     .hovedArtInnhold .ungArt h5 {
         color : #F7A712;
     }
-    #artContent {
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
+    .hovedArtInnhold .dybdeArt h5,
+    .hovedArtInnhold .aktueltArt h5 {
         color: #364962;
-        font-size : 34px;
     }
 
-
-/* HOVEDARTIKKEL -------------------- AVSLUTT */
-
+/* ============================= */
 
 
-.fremhevet {
+/* ============= Artikler - Parts ================ */
+/* ============= Part 1 / 2 ================ */
+.singleArt {
+    margin-top : 15px;
+}
+.singleArt .topSection {
+    min-height: 105px;
+}
+.singleArt .topSectionText {
+    position: absolute;
+    bottom : 0;
+}
+.catDate {
+    height: 15px;
+}
+.singleArt #content{
+    margin-top : 15px;;
+}
+.catDate ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.catDate li {
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+#heading {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size : 35px;
+    color: #364962;
+}
+
+
+/* ============= Part 2 / 2 ================ */
+
+.prevArt , .aktuelt {
+    min-height: 350px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.artGrey {
+    background-color: #F6F6F6;
+    background-clip:content-box;
+}
+.artGreen {  
+    background-color: #D9EFEC;
+    background-clip:content-box;
+}
+.artYellow {
+    background-color: #FDE9C4;
+    background-clip:content-box;
+}
+.artBlue {
+    background-color: #E4F4FD;
+    background-clip:content-box;
+}
+.artPurple {
+    background-color: #941D78;
+    background-clip:content-box;
+}
+.artWhite {
+    background-color: white;
+    background-clip:content-box;
+}
+.img-artikkel {
+    min-height: 350px;
+    background-repeat: no-repeat;        
+    background-position: center;          
+    background-size: cover;
+}
+.text-artikkel {
+    min-height: 350px;
+    padding: 15px;
+    position: relative;
+}
+.text-artikkel {
+    padding : 25px;
+}
+.prevArt p#content {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.button-les {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #364962 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: 30px;
+    right: 30px;
+    position: absolute;
+    letter-spacing: 1px;
+}
+
+/* ============================= */
+
+
+/* ============= Fremhevet artikkel ================ */
+
+.high-article {
     padding: 0px ;
 }
-
-.fremhevetText {
+.high-article-text {
     padding: 15px 0px 0px 0px;
-
 }
 
+/* ============================= */
 
 
-
-
-
-/* COLLAPSE NAVBAR EARLIER */
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none;
-    }
-}
-
-/* END --COLLAPSE NAVBAR EARLIER */
-
-
-
-/* ANNONSE - MODUL */
-
-.annonse {
-    margin-bottom: 60px;
-    color: white;
-    height: 150px;
-    background-clip:content-box;
-    background-color: #941D78 ; 
-}
-    .annonse h2 {
-        margin-top: 55px;
-        font-family: "Knockout 28 A", "Knockout 28 B";
-        font-style: normal;
-        font-weight: 400;
-    }
-
-/* ANNONSE */
-
-
-/* SAMFUNNSVITEREN - MODUL */
+/* =============  Samfunnsviterne ================ */
 
 .samfunnsviterne {
     height: 500px;
@@ -316,7 +395,7 @@ nav.navbar.navbar-light a {
     background-color: #941D78;
     margin-left : 0px;
     height: 500px;
-    padding: 40px;
+    padding: 35px;
 }
     .samfunnsviterneFordeler li {
             list-style-type: none;
@@ -341,7 +420,234 @@ nav.navbar.navbar-light a {
         font-size: 14px;
     }
 
-/* samfunnsviteren MODUL */
+/* ============================= */
+
+
+/* ============= Samfunnsviterne ================ */
+
+.annonse {
+    margin-bottom: 60px;
+    color: white;
+    height: 150px;
+    background-clip:content-box;
+    background-color: #941D78 ; 
+}
+    .annonse h2 {
+        margin-top: 55px;
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+    }
+
+/* ============================= */
+
+
+/* ============= Footer ================ */
+.footer {
+    padding : 30px 15px 30px 15px; 
+    color: white;
+}
+    .input-group {
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 400;
+    }
+    .input-group button.btn {
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        background-color: transparent;
+        border-color: white;
+        font-size: 20px;
+        border-radius: 0;
+    }
+    .footer h3 {
+        font-family: "Knockout 28 A", "Knockout 28 B";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+    .footer .img-responsive {
+        padding: 30px;
+    }
+    #phone, #mail {
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 700;
+    }
+    #phoneNr, #mailText {
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: normal;
+        font-weight: 400;
+    }
+    .form-control {
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 0; 
+    }
+    .copyright {
+        margin-top : 15px;
+        opacity : 0.5;
+        font-family: "Sentinel SSm A", "Sentinel SSm B";
+        font-style: italic;
+        font-weight: 400;
+    }
+
+/* ============================= */
+
+
+/* ============= Issue slider ================ */
+
+.issue-wrapper {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.issue { 
+    width: 500px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    display: inline-block;
+    white-space: normal;
+    margin-right: -4px;
+}
+.issue1 {
+    background-color: #00577D;
+}
+.issue2 {
+    background-color: #E73130;
+}
+.issue3 {
+    background-color: #941D78;
+}
+
+/* ============================= */
+
+
+
+
+
+
+/*==================================================
+=               Bli medlem - Page                  =
+==================================================*/
+
+.bliMedlem {
+    color: white;
+    background-color: #941D78; 
+    border: 0px;
+    padding: 30px;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+#txt1 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom:30px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+#txt2 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txt3 {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+.left-img {
+    height: 300px;
+    margin-top : 20px;
+    left: 0;
+    background-repeat: no-repeat;        
+    background-size: contain ;      
+}
+
+/* ============================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .res-img {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;        
+        background-position: center;   
+        background-size: contain ;       
+    }
+
+
+    .headingBox {
+        position: relative;
+        min-height: 76px;
+    }
+
+
+    
+
+/* COLLAPSE NAVBAR EARLIER */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+/* END --COLLAPSE NAVBAR EARLIER */
+
+
 
 
 
@@ -374,36 +680,3 @@ nav.navbar.navbar-light a {
 }
 
 /* END Comment - MODUL */
-
-
-/* Issue - MODUL */
-
-.issue-wrapper {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    overflow: auto;
-    white-space: nowrap;
-}
-
-.issue { 
-    width: 500px;
-    padding-top: 50px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 120px;
-    display: inline-block;
-    white-space: normal;
-    margin-right: -4px;
-}
-.issue1 {
-    background-color: #00577D;
-}
-.issue2 {
-    background-color: #E73130;
-}
-.issue3 {
-    background-color: #941D78;
-}
