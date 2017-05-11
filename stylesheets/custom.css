@@ -7,6 +7,7 @@ body {
 }
 .navbar-blue {
     background-color: #00577D;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, .08);
 }
 .navbar-blue a {
     color: white !important;
@@ -27,7 +28,6 @@ body {
     border-style:solid;
     border-radius: 0;
     margin-bottom : 0px;
-    box-shadow: 0px 2px 7px rgba(0, 0, 0, .08);
 }
 .navbar ul li {
     padding-left: 12px;
@@ -43,7 +43,7 @@ nav.navbar a {
     letter-spacing: 0.5px;
 }
 .navbar-toggle {
-    background-color: #ac7d3e;
+    background-color: #00577D;
 }
 .navbar .icon-bar {
     background-color: white;
@@ -177,7 +177,7 @@ a:hover {
     background-color: #F6F6F6;
     padding-top: 60px;
     padding-bottom: 60px;
-    margin-bottom: 60px;
+    /*margin-bottom: 60px;*/
 }
 .fullw-footer {
     background-color: #222930;
@@ -531,14 +531,37 @@ h2#title {
 /* ============================= */
 
 
-
-
-
-
 /*==================================================
 =               Bli medlem - Page                  =
 ==================================================*/
-
+.go-back #category {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    color: #677588;
+ }
+.go-back ul {
+    min-height: 10px;
+    padding-left: 0px;
+    list-style: none;    
+ }
+.go-back ul li {
+    float: left;
+    margin-right: 10px;
+ }
+.fullw-blue .go-back p#category {
+    color: white;
+}
+.medlem-text h2#title {
+    margin-top : 35px;
+    margin-bottom : 35px;
+}
+.medlem-img > div:nth-of-type(1)  {
+    margin-top: 50px;
+}
+.medlem-img > div:nth-of-type(2)  {
+    margin-bottom: 15px;
+}
 .bliMedlem {
     color: white;
     background-color: #941D78; 
@@ -592,6 +615,200 @@ h2#title {
 /* ============================= */
 
 
+/*==================================================
+=               Kategori - Page                  =
+==================================================*/
+
+.showCat  {
+    margin-top: 45px;
+}
+h2#catHeader {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+}
+
+/* ============================= */
+
+
+/*==================================================
+=               Big Article - Page                  =
+==================================================*/
+
+.fullw-blue-z1 {
+    background-color: #00577D;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 650px;
+    width: 100%;
+}
+.art-meta, .art-main-img {
+    margin-top: 60px;
+}
+.art-img-wrapper {
+    min-height: 600px;
+    background-image: url(http://www.ansa.no/globalassets/medlemskap/samfunnsviterne/samfunnsviterne.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.magText {
+    padding-top: 60px;
+}
+.sosialBox {
+    height: 75px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+}
+.sosialBox img {
+    margin: auto;
+    height: 45px;
+    padding: 8px 8px 12px 8px;
+}
+.fullw-img {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.fullw-img img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* BIG ARTICLE?????? */ 
+.longArtBox .magText{
+    margin-top : 0;
+}
+
+ul.list-inline {
+    margin-left: 0;
+    margin-top: 30px;
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 700;    
+}
+ul.list-inline li p {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.vedlegg {
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background-clip: content-box;
+    background-color: #F6F6F6 ;
+}
+.vedlegg img {
+    height: 45px;
+}
+.vedlegg-img {
+    padding: 15px;
+}
+#vedlegg-file {
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: #364962;
+    margin-top: 20px;
+} 
+
+.oppsumering {
+    background-color: #FDE9C4;
+    background-clip: content-box;
+}
+.oppsumering-text {
+    padding: 30px;
+}
+.oppsumering ul#bullets {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    line-height: 25px;
+}
+
+
+.modul-1 {
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+h5#quote {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 300; 
+    font-size: 20px;
+    line-height: 28px;   
+}
+p#quote-person {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    color: #00577D;
+    font-size : 13px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.quote-img img {
+    object-fit: cover;    
+}
+p#img-text-right {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #00577D ;
+}
+
+
+.custom-image {
+    position: absolute;
+    z-index: 10000;
+}
+.custom-image img {
+    object-fit: cover;  
+    padding-top: 60px;
+    padding-bottom: 230px;
+    height: 1000px;
+    width: 500px;
+}
+
+/* END - BIG ARTICLE */
+
+
+
+/* ============================= */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -630,7 +847,7 @@ h2#title {
 
 /* COLLAPSE NAVBAR EARLIER */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 1440px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
