@@ -67,6 +67,15 @@
 
     /* FORSIDE -------------------- AVSLUTT */
 
+.magText {
+    color: white;
+    padding-top: 60px;
+}
+.magText p#content,
+.magText h2#title{
+    color: white;
+}
+
 }
 
 /* Big Devices, Desktops */
@@ -75,4 +84,8 @@
 .samfunnsviterne {
     padding: 80px;
 }
+.fullw-img img {
+    height: 700px;
+}
+
 
