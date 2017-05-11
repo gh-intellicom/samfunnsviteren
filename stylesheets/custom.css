@@ -182,20 +182,26 @@ a:hover {
     bottom: 30px;
 } 
 .fullw-custom {
+    min-height: calc(100vh - 120px);
     background-color: #f7b692;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.fullw-blue {
+.fullw-blue {    
     background-color: #00577D;
     padding-top: 60px;
     padding-bottom: 60px;
 }
 .fullw-grey {
+    min-height: calc(100vh);
     background-color: #F6F6F6;
     padding-top: 60px;
     padding-bottom: 60px;
-    /*margin-bottom: 60px;*/
+}
+.fullw-grey-2 {
+    background-color: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .fullw-footer {
     background-color: #222930;
@@ -223,7 +229,7 @@ h2#title {
     font-style: normal;
     font-weight: 300;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 18px;
     margin-top : 15px;
     margin-bottom : 15px;
     color: #364962;
@@ -251,7 +257,7 @@ h2#title {
         font-style: normal;
         font-weight: 400;
         font-size: 15px;
-        line-height: 1.7;
+        line-height: 24px;
     }
     .hovedArtInnhold .fastSpalteArt h5 {
         color : #67C0B3;
@@ -356,6 +362,8 @@ h2#title {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    font-size: 15px;
+    line-height: 1.7;
 }
 .button-les {
     font-family: "Knockout 28 A", "Knockout 28 B";
@@ -666,14 +674,21 @@ h2#catHeader {
 .art-meta, .art-main-img {
     margin-top: 60px;
 }
+.art-main-img.go-back p#category{
+    color: white !important;
+}
 .art-img-wrapper {
-    min-height: 600px;
+    margin-top: 50px;
+    min-height: 550px;
     background-image: url(../img/06.jpg);
     background-size: cover;
     background-position: center center;
 }
 .magText {
     padding-top: 60px;
+}
+.magText p#topCategory {
+    border-bottom: solid 0px;
 }
 .sosialBox {
     height: 75px;
