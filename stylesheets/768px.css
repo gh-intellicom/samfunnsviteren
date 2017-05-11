@@ -2,6 +2,23 @@
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
 
+/* COLLAPSE NAVBAR EARLIER */
+
+@media (max-width: 1440px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -30,9 +47,6 @@
     }
 
 }
-
-
-
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 1200px) {

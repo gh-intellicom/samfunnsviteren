@@ -5,6 +5,13 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
+.navbar-custom {
+    background-color: #f7b692;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, .08);
+}
+.navbar-custom a {
+    color: white !important;
+}
 .navbar-blue {
     background-color: #00577D;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, .08);
@@ -637,7 +644,7 @@ h2#catHeader {
 ==================================================*/
 
 .fullw-blue-z1 {
-    background-color: #00577D;
+    background-color: #F7B692;
     position: absolute;
     left: 0px;
     top: 0px;
@@ -650,7 +657,7 @@ h2#catHeader {
 }
 .art-img-wrapper {
     min-height: 600px;
-    background-image: url(http://www.ansa.no/globalassets/medlemskap/samfunnsviterne/samfunnsviterne.jpg);
+    background-image: url(../img/animation-03.gif);
     background-size: cover;
     background-position: center center;
 }
@@ -844,23 +851,6 @@ p#img-text-right {
 
 
     
-
-/* COLLAPSE NAVBAR EARLIER */
-
-@media (max-width: 1440px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none;
-    }
-}
 
 /* END --COLLAPSE NAVBAR EARLIER */
 
