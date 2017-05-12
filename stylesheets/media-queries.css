@@ -1,0 +1,112 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==================================================
+=            Navbar Collapse                       =
+=            Small devices                         =
+=            Medium                                =
+=            Big                                   =
+==================================================*/
+
+
+/* ============= Collapse Navbar at 1440 ================ */
+
+@media (max-width: 1440px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
+
+/* ============================= */
+
+
+/* ============= Small devices ================ */
+
+@media only screen and (min-width : 768px) {
+
+    .res-img {
+        height: 250px;      
+    }
+    .samfunnsviterne {
+        padding: 60px;
+    }
+    .samfunnsviterneFordeler {
+        padding: 50px;
+        padding-left : 70px; /* 85px minus 15px from img padding */
+    }
+    .samfunnsviterne {
+        height: 500px;
+    }
+    .quote-text {
+        margin-top: 100px;
+    }        
+    .quote-img img {
+        height: 800px;     
+    }
+}
+
+/* ============================= */
+
+
+/* ============= Medium devices ================ */
+
+@media only screen and (min-width : 1200px) {
+
+    .res-img {
+        height: 500px;      
+    }
+    .issue-text { 
+        margin-top: 150px;
+    }
+    .high-article {
+        padding: 15px 0 0 0;
+    }
+    .high-article-text {
+        padding-left : 85px;
+    }
+    .hovedArtText {
+        padding : 30px 30px 30px 15px;
+    }
+    .hovedArt img {
+        padding: 30px 0 0 0;
+    }
+    .samfunnsviterne {
+        margin-right: -15px;
+    }
+    .samfunnsviterneFordeler {
+        margin-left : -15px;
+    }
+    .magText {
+        color: white;
+        padding-top: 60px;
+    }
+    .magText p#content,
+    .magText h2#title{
+        color: white;
+    }
+}
+
+/* ============================= */
+
+
+/* ============= Big devices ================ */
+
+@media only screen and (min-width : 1400px) {
+
+.samfunnsviterne {
+    padding: 80px;
+}
+.fullw-img img {
+    height: 700px;
+}
+
+/* ============================= */

@@ -73,6 +73,12 @@ span#releaseNum {
     font-style: italic;
     font-weight: 400;
 }
+.artPurple {
+    color: white;
+}
+.artPurple #content {
+    color: white;
+}
 
 /* ============= Issue Front ================ */
 
@@ -181,8 +187,13 @@ a:hover {
     position: absolute;
     bottom: 30px;
 } 
+.fullw-small-blue {
+    background-color: #00577D;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 .fullw-custom {
-    min-height: calc(100vh - 120px);
+    /*min-height: calc(100vh - 120px);*/
     background-color: #f7b692;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -193,7 +204,7 @@ a:hover {
     padding-bottom: 60px;
 }
 .fullw-grey {
-    min-height: calc(100vh);
+    /*min-height: calc(100vh);*/
     background-color: #F6F6F6;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -269,6 +280,15 @@ h2#title {
     .hovedArtInnhold .aktueltArt h5 {
         color: #364962;
     }
+    .res-img {
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-repeat: no-repeat;        
+        background-position: center;   
+        background-size: contain ;       
+    }
 
 /* ============================= */
 
@@ -309,6 +329,8 @@ h2#title {
     font-size : 35px;
     color: #364962;
 }
+
+/* ============================= */
 
 
 /* ============= Part 2 / 2 ================ */
@@ -449,7 +471,7 @@ h2#title {
 /* ============================= */
 
 
-/* ============= Samfunnsviterne ================ */
+/* ============= Annonse ================ */
 
 .annonse {
     margin-bottom: 60px;
@@ -560,6 +582,7 @@ h2#title {
 /*==================================================
 =               Bli medlem - Page                  =
 ==================================================*/
+
 .go-back #category {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
@@ -679,7 +702,7 @@ h2#catHeader {
 }
 .art-img-wrapper {
     margin-top: 50px;
-    min-height: 550px;
+    min-height: 673px;
     background-image: url(../img/06.jpg);
     background-size: cover;
     background-position: center center;
@@ -712,24 +735,6 @@ h2#catHeader {
 .addon-img img {
     width: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* BIG ARTICLE?????? */ 
-.longArtBox .magText{
-    margin-top : 0;
-}
-
 ul.list-inline {
     margin-left: 0;
     margin-top: 30px;
@@ -742,8 +747,23 @@ ul.list-inline li p {
     font-style: normal;
     font-weight: 400;
 }
-
-
+.oppsumering {
+    background-color: #FDE9C4;
+    background-clip: content-box;
+}
+.oppsumering-text {
+    padding: 30px;
+}
+.oppsumering ul#bullets {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    line-height: 25px;
+}
 .vedlegg {
     overflow: hidden;
     margin-top: 15px;
@@ -766,31 +786,10 @@ ul.list-inline li p {
     color: #364962;
     margin-top: 20px;
 } 
-
-.oppsumering {
-    background-color: #FDE9C4;
-    background-clip: content-box;
-}
-.oppsumering-text {
-    padding: 30px;
-}
-.oppsumering ul#bullets {
-    font-family: "Sentinel SSm A", "Sentinel SSm B";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-left: 15px;
-    line-height: 25px;
-}
-
-
 .modul-1 {
     margin-top: 30px;
     margin-bottom: 30px;  
 }
-
 h5#quote {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
     font-style: normal;
@@ -818,92 +817,6 @@ p#img-text-right {
     margin-bottom: 30px;
     color: #00577D ;
 }
-
-
-.custom-image {
-    position: absolute;
-    z-index: 10000;
-}
-.custom-image img {
-    object-fit: cover;  
-    padding-top: 60px;
-    padding-bottom: 230px;
-    height: 1000px;
-    width: 500px;
-}
-
-/* END - BIG ARTICLE */
-
-
-
-/* ============================= */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .res-img {
-        height: 250px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        background-repeat: no-repeat;        
-        background-position: center;   
-        background-size: contain ;       
-    }
-
-
-    .headingBox {
-        position: relative;
-        min-height: 76px;
-    }
-
-
-    
-
-/* END --COLLAPSE NAVBAR EARLIER */
-
-
-
-
-
-
-/* Relaterte artikler - MODUL */
-
-#relatertArtTitle {
-    font-size: 35px;
-    font-family: "Knockout 28 A", "Knockout 28 B";
-    font-style: normal;
-    font-weight: 400;
-}
-
-/* END Relaterte artikler - MODUL */
-
-
-/* Comment - MODUL */
-
 .commentBox {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -916,5 +829,41 @@ p#img-text-right {
     font-style: normal;
     font-weight: 400;
 }
+#relatertArtTitle {
+    font-size: 35px;
+    font-family: "Knockout 28 A", "Knockout 28 B";
+    font-style: normal;
+    font-weight: 400;
+}
+.fullw-small-blue p#category {
+    color: white;
+}
 
-/* END Comment - MODUL */
+/* ============================= */
+
+/* BIG ARTICLE?????? */ 
+
+/*.longArtBox .magText{
+    margin-top : 0;
+}*/
+
+/*.custom-image {
+    position: absolute;
+    z-index: 10000;
+}
+.custom-image img {
+    object-fit: cover;  
+    padding-top: 60px;
+    padding-bottom: 230px;
+    height: 1000px;
+    width: 500px;
+}*/
+    /*.headingBox {
+        position: relative;
+        min-height: 76px;
+    }*/
+
+/* ============================= */
+
+
+
