@@ -10,6 +10,9 @@ body {
 .nav > li > a:focus {
 background-color: transparent;
 }
+.nav > li > a > img {
+    margin-bottom: 2px;
+}
 .navbar-custom {
     background-color: #f7b692;
     box-shadow: 0px 2px 7px rgba(0, 0, 0, .08);
@@ -29,7 +32,7 @@ background-color: transparent;
     border-bottom-color: white !important;
 }
 .navbar-transparent a {
-    color: black;
+    color: #364962 !important;
 }
 .navbar-nav > li > a:hover,{
     background-color: inherit;
@@ -46,7 +49,6 @@ background-color: transparent;
     padding-right: 10px;
 }
 nav.navbar a {
-    color: black;
     background-color: transparent;
     font-size: 15px;
     font-family: "Sentinel SSm A", "Sentinel SSm B";
@@ -233,7 +235,7 @@ h2#title {
     line-height: 54px;
     color: #364962;
     margin-top: 50px;
-    margin-bottom: 20px; 
+    margin-bottom: 25px; 
 }
 #content {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
@@ -414,7 +416,10 @@ h2#title {
     padding: 0px ;
 }
 .high-article-text {
-    padding: 15px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
+}
+.high-article-text h2#title {
+    margin-top: 15px;
 }
 
 /* ============================= */
@@ -443,7 +448,7 @@ h2#title {
     background-color: #941D78;
     margin-left : 0px;
     height: 500px;
-    padding: 35px;
+    padding: 30px;
 }
     .samfunnsviterneFordeler li {
             list-style-type: none;
@@ -458,7 +463,6 @@ h2#title {
         font-weight: 400;
         display :inline-block;
         color: white;
-        margin-left: 15px;
         font-size: 30px;
     }
     .samfunnsviterne p#content {
@@ -642,7 +646,7 @@ h2#title {
     font-size: 15px;
     line-height: 1.6;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 #txt3 {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
@@ -691,7 +695,7 @@ h2#catHeader {
     left: 0px;
     top: 0px;
     z-index: -1;
-    height: 650px;
+    height: 630px;
     width: 100%;
 }
 .art-meta, .art-main-img {
@@ -713,15 +717,23 @@ h2#catHeader {
 .magText p#topCategory {
     border-bottom: solid 0px;
 }
+.sosialBox a#shareText {
+    font-family: "Sentinel SSm A", "Sentinel SSm B";
+    font-style: normal;
+    font-weight: 400;
+}
 .sosialBox {
     height: 75px;
-    margin-top: 75px;
+    margin-top: 35px;
     margin-bottom: 15px;
 }
 .sosialBox img {
     margin: auto;
-    height: 45px;
+    height: 40px;
     padding: 8px 8px 12px 8px;
+}
+.sosialBox .sfButton2 {
+    margin-left: 30px;
 }
 .fullw-img {
     margin-top: 60px;
@@ -795,7 +807,7 @@ h5#quote {
     font-style: normal;
     font-weight: 300; 
     font-size: 20px;
-    line-height: 28px;   
+    line-height: 30px;   
 }
 p#quote-person {
     font-family: "Sentinel SSm A", "Sentinel SSm B";
@@ -816,10 +828,12 @@ p#img-text-right {
     margin-top: 30px;
     margin-bottom: 30px;
     color: #00577D ;
+    line-height: 21px;
+    font-size: 14px;
 }
 .commentBox {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 .commentBox h3#commentTitle {
     margin-top: 30px;
